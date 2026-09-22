@@ -1,0 +1,192 @@
+.books-page {
+    padding: 20px 30px;
+}
+
+/* Header */
+
+.books-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.books-header h1 {
+    margin: 0 0 5px;
+}
+
+.books-header button {
+    border: none;
+    background: none;
+}
+
+/* Search */
+
+.search-container {
+    margin: 15px 0 20px;
+}
+
+.search-container input {
+    width: 280px;
+    padding: 10px 12px;
+    margin-left: 8px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    background: white;
+    outline: none;
+}
+
+.search-container input:focus {
+    border-color: #4f46e5;
+}
+
+/* Add Book button */
+
+.add-book-button {
+    padding: 9px 16px;
+    border: none;
+    border-radius: 6px;
+    background: #4f46e5;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.add-book-button:hover {
+    background: #4338ca;
+}
+
+/* Form */
+
+.add-book-form {
+    margin-bottom: 25px;
+    padding: 20px;
+    background: white;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.add-book-form h2 {
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+.add-book-form input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    padding: 10px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    outline: none;
+}
+
+.add-book-form input:focus {
+    border-color: #4f46e5;
+}
+
+.add-book-form button {
+    margin-right: 10px;
+    padding: 9px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Books table container */
+
+.books-page > .books-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Table header */
+
+.books-table thead {
+    background: #eef2ff;
+}
+
+.books-table th {
+    padding: 14px 12px;
+    border: 1px solid #d1d5db;
+    color: #1f2937;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Table cells */
+
+.books-table td {
+    padding: 13px 12px;
+    border: 1px solid #e5e7eb;
+    color: #374151;
+    text-align: center;
+}
+
+/* Alternate rows */
+
+.books-table tbody tr:nth-child(even) {
+    background: #f9fafb;
+}
+
+/* Hover */
+
+.books-table tbody tr:hover {
+    background: #f1f5f9;
+}
+
+/* Book title */
+
+.title-button-class {
+    background: none;
+    border: none;
+    color: #4f46e5;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.title-button-class:hover {
+    text-decoration: underline;
+}
+
+/* Action buttons */
+
+.books-table td button {
+    padding: 6px 12px;
+    margin: 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+/* Edit */
+
+.books-table td button:first-child {
+    background: #4f46e5;
+    color: white;
+}
+
+.books-table td button:first-child:hover {
+    background: #4338ca;
+}
+
+/* Delete */
+
+.books-table td button:last-child {
+    background: #ef4444;
+    color: white;
+}
+
+.books-table td button:last-child:hover {
+    background: #dc2626;
+}

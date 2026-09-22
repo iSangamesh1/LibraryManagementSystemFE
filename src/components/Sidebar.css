@@ -1,0 +1,21 @@
+.sidebar {
+    width: 220px;
+    padding: 20px 0;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: inherit;
+}
