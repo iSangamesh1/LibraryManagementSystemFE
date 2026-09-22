@@ -272,7 +272,7 @@ function Books() {
                             <td>{book.availableCopies > 0 ? "Available" : "Issued"}</td>
                             { isAdmin && <td>
                                 
-                                    <button onClick={() => { 
+                                    <button className="edit-book-button" onClick={() => { 
                                         setEditingBook(book);
                                         setFormData({
                                             title: book.title,
@@ -285,7 +285,7 @@ function Books() {
                                     }}>
                                         Edit
                                     </button>
-                                    <button onClick={() => handleDeleteButton(book.id)}>
+                                    <button className="delete-book-button" onClick={() => handleDeleteButton(book.id)}>
                                         Delete
                                     </button>
                                 </td>
